@@ -8,8 +8,7 @@ This is explained in this workflow as follows :-
     * The first and essential procedure towards flood prediction is monitoring based on identifying the area most vulnerable to flooding, which    gives authorities relevant regions to focus.
     * The topography of the terrain of all the prone areas(near water bodies) will be analysed using Digital Elevation Models(DEM).
     * A flood inundation model will be used to identify areas that will be impacted due to overflow of a water body.
-    * This will allow to set up **alert stations and rescue forces base** at optimum positions in the possible area of disaster in the case of calamity.
-    * Due to the optimum position of base stations, **a lot of lives can be saved and evacuation points** can be created to span the particular areas.
+    * This will allow to set up **alert stations and rescue forces base** at optimum positions in the possible area of disaster in the case of calamity saving a lot of lives and proper evacuations.
     
 ![Mercator Projection of DEM](https://github.com/kumar1202/code.fun.do/blob/master/predict/merc_projection.png "Mercator Projection of DEM")
 
@@ -21,7 +20,7 @@ This is explained in this workflow as follows :-
 
 
 - **Manage** - 
-    *  In the case of a hydrological catastrophy, image segmentation will be used on live satellite feed of the affected area to determine the **remote and unserved areas** to setup distribution depots or drop packets.
+    *  In the case of a hydrological catastrophy, image segmentation will be used on live satellite feed of the affected area to determine the **remote and unserved areas** to setup distribution points.
     *  As there is no ground truth data for the model to train, so the before and after images of previous catastrophies will be used for clustering the image into segments.
     *  A convolutional autoencoder(also called as U-Net) will be used on the clustered satellite images to detect the flood affected areas in that terrain.
     *  The segmentation of the live feed can be deployed on any maps provider(like Google Maps) will help in proper distribution of resources in crisis and in **identifying priority sites for rescue operations**.
@@ -37,12 +36,12 @@ This is explained in this workflow as follows :-
 
 ## Datasets to be used
 
-*  The DEMs(Digital Elevation Models) used for the prediction phase will be  CartoDEM provided by [Bhuvan](http://bhuvan.nrsc.gov.in/data/download/index.php), which is the Geoportal of Indian Space Research Organisation (ISRO) and provides various remote sensing datasets for India.
+*  The DEMs used for the prediction phase will be  CartoDEM provided by [Bhuvan](http://bhuvan.nrsc.gov.in/data/download/index.php), which is the Geoportal of ISRO and provides various remote sensing datasets for India.
 *  The satellite images for the management phase will be [OpenData](https://www.digitalglobe.com/opendata) which provides high quality RGB band images for before and after catastrophic events around the world.
 
 ## Technologies Used
 
-- **TensorFlow** - An open-source software library for dataflow programming across a range of tasks to create deep learning models.
-- **OpenCV** - OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision used for preprocessing images.
-- **PyDEM** -  A package for topographic (terrain) analysis written in Python. It takes in digital elevation model (DEM) rasters, and it outputs quantities like slope, aspect, upstream area, and topographic wetness index.
-- **GDAL** - A translator library for raster and vector geospatial data formats which  presents a single raster abstract data model and single vector abstract data model to the calling application.
+- **TensorFlow** - An open-source software library for dataflow programming used to create deep learning models.
+- **OpenCV** - A library mainly aimed at real-time computer vision used for preprocessing images.
+- **PyDEM** -  A package for topographic (terrain) analysis written in Python.
+- **GDAL** - A translator library for raster and vector geospatial data formats.
