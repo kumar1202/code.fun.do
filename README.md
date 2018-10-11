@@ -19,3 +19,20 @@ This is explained in this workflow as follows :-
     *  A convolutional autoencoder(also called as U-Net) will be used on the clustered satellite images to detect the flood affected areas in that terrain.
     *  The segmentation of the live feed can be deployed on any maps provider(like Google Maps) which will help in proper distribution of resources in crisis and in **identifying priority sites for rescue operations**.
 ![Flood Image Segmentation](https://github.com/kumar1202/code.fun.do/blob/master/manage/satellite_image_segmentation.png "Flood Image Segmentation")
+
+## Workflow
+
+* The prediction stage will be active in normal period in order to strengthen the preparations to tackle any catastrophic events at its best with minimum loss.
+* The management phase will be active in emergency period in order to provide relief in the most unserved and dangerous locations to minimize the impact of the disaster.
+
+## Datasets to be used
+
+*  The DEMs(Digital Elevation Models) used for the prediction phase will be  CartoDEM provided by [Bhuvan](http://bhuvan.nrsc.gov.in/data/download/index.php), which is the Geoportal of Indian Space Research Organisation (ISRO) and provides various remote sensing datasets for India.
+*  The satellite images for the management phase will be [OpenData](https://www.digitalglobe.com/opendata) which provides high quality RGB band images for before and after catastrophic events around the world.
+
+## Technologies Used
+
+- **TensorFlow** - An open-source software library for dataflow programming across a range of tasks to create deep learning models.
+- **OpenCV** - OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision used for preprocessing images.
+- **PyDEM** -  A package for topographic (terrain) analysis written in Python. It takes in digital elevation model (DEM) rasters, and it outputs quantities like slope, aspect, upstream area, and topographic wetness index.
+- **GDAL** - A translator library for raster and vector geospatial data formats which  presents a single raster abstract data model and single vector abstract data model to the calling application.
