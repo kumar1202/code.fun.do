@@ -1,6 +1,7 @@
 # Flood Risk Management using Satellite Image Segmentation and Geospatial Analysis
 
-During this year, there has been massive floods in Kerala and Nagaland costing the precious lives of thousands of beings and causing colossal damage. The frequency of hydrological catastrophes has been on the rise since the last few years. The idea to manage the risks of flood and find better ways to save lives and prevent economic losses is explained in this workflow as follows :-
+During this year, there has been massive floods in Kerala and Nagaland costing the precious lives of thousands of beings and causing colossal damage. The frequency of hydrological catastrophes has been on the rise since the last few years. The idea is to manage the risks of flood neighbouring to the already flooded area and find better ways to save lives and prevent economic losses.
+This is explained in this workflow as follows :-
 
 - **Predict** -  
     * The topography of the terrain of all the prone areas(near water bodies) will be analysed using Digital Elevation Models(DEM).
