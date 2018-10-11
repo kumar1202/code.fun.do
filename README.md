@@ -13,11 +13,11 @@ This is explained in this workflow as follows :-
     
 ![Mercator Projection of DEM](https://github.com/kumar1202/code.fun.do/blob/master/predict/merc_projection.png "Mercator Projection of DEM")
 
- Fig. 1. Sample Mercator Projection of DEM
+ >Fig. 1. Sample Mercator Projection of DEM
  
  ![Flood Prediction](https://github.com/kumar1202/code.fun.do/blob/master/predict/flood_prediction.png "Flood Prediction")
  
- Fig. 2. Sample prediction of Flood using mercator projection
+ >Fig. 2. Sample prediction of Flood using mercator projection
 
 
 - **Manage** - 
@@ -27,7 +27,7 @@ This is explained in this workflow as follows :-
     *  The segmentation of the live feed can be deployed on any maps provider(like Google Maps) will help in proper distribution of resources in crisis and in **identifying priority sites for rescue operations**.
 ![Flood Image Segmentation](https://github.com/kumar1202/code.fun.do/blob/master/manage/satellite_image_segmentation.png "Flood Image Segmentation")
 
-Fig. 3. Flood Image Segmentation 
+>Fig. 3. Flood Image Segmentation 
 
 ## Operation
 
