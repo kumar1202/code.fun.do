@@ -18,3 +18,5 @@ This is explained in this workflow as follows :-
     *  As there is no ground truth data for the model to train, so the before and after images of previous catastrophies will be used for clustering the image into segments.
     *  A convolutional autoencoder(also called as U-Net) will be used on the clustered satellite images to detect the flood affected areas in that terrain.
     *  The segmentation of the live feed can be deployed on any maps provider(like Google Maps) which will help in proper distribution of resources in crisis and in **identifying priority sites for rescue operations**.
+![Flood Image Segmentation](![Flood Prediction](https://github.com/kumar1202/code.fun.do/blob/master/predict/flood_prediction.png "Flood Prediction")
+ "Flood Image Segmentation")
