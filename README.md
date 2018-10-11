@@ -5,7 +5,6 @@ This is explained in this workflow as follows :-
 
 - **Predict** -  
     * The topography of the terrain of all the prone areas(near water bodies) will be analysed using Digital Elevation Models(DEM).
-    * DEM is 2D/3D representation of a terrain's surface, created from terrain elevation data.
     * A flood inundation model will be used to identify areas that will be impacted due to overflow of a water body.
     * This will allow to set up **alert stations and rescue forces base** at optimum positions in the possible area of disaster in the case of calamity.
     * Due to the optimum position of base stations, **a lot of lives can be saved and evacuation points** can be created to span the particular areas.
@@ -17,13 +16,14 @@ This is explained in this workflow as follows :-
     *  In the case of a hydrological catastrophy, image segmentation will be used on live satellite feed of the affected area to determine the **remote and unserved areas** to setup distribution depots or drop packets.
     *  As there is no ground truth data for the model to train, so the before and after images of previous catastrophies will be used for clustering the image into segments.
     *  A convolutional autoencoder(also called as U-Net) will be used on the clustered satellite images to detect the flood affected areas in that terrain.
-    *  The segmentation of the live feed can be deployed on any maps provider(like Google Maps) which will help in proper distribution of resources in crisis and in **identifying priority sites for rescue operations**.
+    *  The segmentation of the live feed can be deployed on any maps provider(like Google Maps) will help in proper distribution of resources in crisis and in **identifying priority sites for rescue operations**.
 ![Flood Image Segmentation](https://github.com/kumar1202/code.fun.do/blob/master/manage/satellite_image_segmentation.png "Flood Image Segmentation")
 
 ## Workflow
 
 * The prediction stage will be active in normal period in order to strengthen the preparations to tackle any catastrophic events at its best with minimum loss.
 * The management phase will be active in emergency period in order to provide relief in the most unserved and dangerous locations to minimize the impact of the disaster.
+* The service can being deployed on any map provider, can be used by anyone to analyse the conditions of their areas and take proper personal actions, as well as the controlling offices to take right decisions.
 
 ## Datasets to be used
 
