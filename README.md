@@ -23,7 +23,7 @@ This is explained in this workflow as follows :-
     *  In the case of a hydrological catastrophy, image segmentation will be used on live satellite feed of the affected area to determine the **remote and unserved areas** to setup distribution points.
     *  As there is no ground truth data for the model to train, so the before and after images of previous catastrophies will be used for clustering the image into segments.
     *  A convolutional autoencoder(U-Net) will be used on the clustered satellite images to detect the flood affected areas in that terrain.
-    *  The segmentation of the live feed can be deployed on any maps provider(like Google Maps) will help in proper distribution of resources in crisis and in **identifying priority sites for rescue operations**.
+    *  The segmentation of the live feed can be deployed on any maps provider(like Google Maps) will help in proper distribution of resources and **identifying priority sites for rescue operations**.
 ![Flood Image Segmentation](https://github.com/kumar1202/code.fun.do/blob/master/manage/satellite_image_segmentation.png "Flood Image Segmentation")
 
 >Fig. 3. Flood Image Segmentation 
@@ -36,8 +36,8 @@ This is explained in this workflow as follows :-
 
 ## Datasets to be used
 
-*  The DEMs used for the prediction phase will be taken from CartoDEM provided by [Bhuvan](http://bhuvan.nrsc.gov.in/data/download/index.php), which provides remote sensing datasets for India.
-*  The satellite images for the management phase will be taken from [OpenData](https://www.digitalglobe.com/opendata) which provides images for before and after catastrophic events around the world.
+*  The DEMs used will be taken from CartoDEM provided by [Bhuvan](http://bhuvan.nrsc.gov.in/data/download/index.php), which provides remote sensing datasets for India.
+*  The satellite images used will be taken from [OpenData](https://www.digitalglobe.com/opendata) which provides images for before and after catastrophic events around the world.
 
 ## Technologies Used
 
