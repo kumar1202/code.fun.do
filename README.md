@@ -9,7 +9,7 @@ During this year, there has been massive floods in Kerala and Nagaland costing t
     * This will allow to set up alert stations and rescue forces base at optimum positions in the possible area of disaster in the case of calamity.
     * Due to the optimum position of base stations, a lot of lives can be saved and evacuation points can be created to span the particular areas.
     
-![Mercator Projection of DEM](https://github.com/kumar1202/code.fun.do/blob/master/predict/merc_projection.png? "Mercator Projection of DEM)
-![Flood Prediction](https://github.com/kumar1202/code.fun.do/blob/master/predict/flood_prediction.png? "Flood Prediction")
+![Mercator Projection of DEM](https://github.com/kumar1202/code.fun.do/blob/master/predict/merc_projection.png "Mercator Projection of DEM)
+![Flood Prediction](https://github.com/kumar1202/code.fun.do/blob/master/predict/flood_prediction.png "Flood Prediction")
 
 - **Manage** - 
