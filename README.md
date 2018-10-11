@@ -1,11 +1,11 @@
 # Flood Risk Management using Satellite Image Segmentation and Geospatial Analysis
 
-During this year, there's been massive floods in Kerala and Nagaland costing the precious lives of thousands of beings and causing colossal damage. The frequency of hydrological catastrophes has been on the rise since the last few years. The idea is to predict and manage the risks of flood in the affected areas and find better ways to save lives and prevent economic losses.
+During this year, there's been massive floods in Kerala and Nagaland costing the precious lives of thousands of beings and causing colossal damage. The frequency of hydrological catastrophies has been on the rise since the last few years. The idea is to predict and manage the risks of flood in the affected areas and find better ways to save lives and prevent economic losses.
 
 This is explained in this workflow as follows :-
 
 - **Predict** -  
-    * The first and essential procedure towards flood prediction is monitoring based on identifying the area most vulnerable to flooding, which    gives authorities relevant regions to focus.
+    * The first and most essential procedure towards flood prediction is monitoring based on identifying the area most vulnerable to flooding, which gives authorities relevant regions to focus.
     * The topography of the terrain of all the prone areas(near water bodies) will be analysed using Digital Elevation Models(DEM).
     * A flood inundation model will be used to identify areas that will be impacted due to overflow of a water body.
     * This will allow to set up **alert stations and rescue forces base** at optimum positions in the possible area of disaster in the case of calamity saving a lot of lives and proper evacuations.
