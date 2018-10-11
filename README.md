@@ -13,3 +13,6 @@ During this year, there has been massive floods in Kerala and Nagaland costing t
 ![Flood Prediction](https://github.com/kumar1202/code.fun.do/blob/master/predict/flood_prediction.png "Flood Prediction")
 
 - **Manage** - 
+    *  In the case of a hydrological catastrophy, image segmentation will be used on live satellite feed of the affected area to determine the remote and unserved areas to setup distribution depots or drop packets.
+    *  As there is no ground truth data for the model to train, so the before and after images of previous catastrophies will be used for clustering the image into segments.
+    *  A convolutional autoencoder(also called as U-Net) will be used to segment satellite images to detect the flood affected areas in that terrain.
