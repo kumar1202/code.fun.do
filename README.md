@@ -5,7 +5,7 @@ During this year, there's been massive floods in Kerala and Nagaland costing the
 This is explained in this workflow as follows :-
 
 - **Predict** -  
-    * The first and most essential procedure towards flood prediction is monitoring based on identifying the area most vulnerable to flooding, which gives authorities relevant regions to focus.
+    * The first and most essential step towards flood prediction is monitoring based on identifying the area most vulnerable to flooding, which gives authorities relevant regions to focus.
     * The topography of the terrain of all the prone areas will be analysed using Digital Elevation Models(DEM).
     * A flood inundation model will be used to identify areas that will be impacted due to overflow of a water body.
     * This will allow to set up **alert stations and rescue forces base** at optimum positions in the possible area of disaster in the case of calamity saving a lot of lives and proper evacuations.
