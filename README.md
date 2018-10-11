@@ -27,11 +27,13 @@ This is explained in this workflow as follows :-
     *  The segmentation of the live feed can be deployed on any maps provider(like Google Maps) will help in proper distribution of resources in crisis and in **identifying priority sites for rescue operations**.
 ![Flood Image Segmentation](https://github.com/kumar1202/code.fun.do/blob/master/manage/satellite_image_segmentation.png "Flood Image Segmentation")
 
+Fig. 3. Flood Image Segmentation 
+
 ## Operation
 
 * The prediction stage will be active in normal period in order to strengthen the preparations to tackle any catastrophic events at its best with minimum loss.
 * The management phase will be active in emergency period in order to provide relief in the most unserved and dangerous locations to minimize the impact of the disaster.
-* The service can being deployed on any map provider, can be used by anyone to analyse the conditions of their areas and take proper personal actions, as well as the controlling offices to take right decisions.
+* The service can be deployed on any map provider that can be used by anyone to analyse the conditions of their areas and take proper personal actions, as well as the controlling offices to take right decisions.
 
 ## Datasets to be used
 
